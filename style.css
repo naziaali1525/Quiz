@@ -1,0 +1,68 @@
+body {
+    font-family:'Pangolin', cursive;
+    background-color: #ced7db;
+    background-image: url('pictures/tiles.jpg');
+   
+    
+}
+#after_submit {
+    visibility: hidden;
+    background-color: #f06292;
+    padding: 10px 20px;
+    width: 400px;
+    height: 496px;
+    margin-left: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+h1{
+    font-size: 50px;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+#quiz{
+    background-color: #7fdeea;
+    border-radius: 5px;
+    margin: 30px;
+    width: 400px;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    min-width: 360px;
+     
+}
+button{
+    margin: 10px 0px;
+    padding: 10px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    background-color: #f8bbd0;
+    
+}
+
+button:hover{
+    color: white;
+    background-color: #f06292;
+    cursor: pointer;
+}
+#game{
+    display: inline;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 160px;
+  
+}
+#footer{
+    text-align: center;
+    font-size:  63px;
+    font-weight: bold;
+}

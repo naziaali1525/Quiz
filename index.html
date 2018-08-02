@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+   <div id= "container">
+    <form id="quiz" name="quiz">
+        <h1>Quiz Time</h1>
+        <p>1. What is the meaning of pakistan?</p>
+        <input type="radio" id="game" name="question1" value="muslim land">Muslim Land<br>
+        <input type="radio" id="game" name="question1" value="holy land">Holy Land<br>
+        
+        <p>2. Which is the national flower of Pakistan?</p>
+        <input type="radio" id="game" name="question2" value="rose">Rose<br>
+        <input type="radio" id="game" name="question2" value="jasmine">Jasmine<br>
+
+        <p>3. Which is the national animal of Pakistan?</p>
+        <input type="radio" id="game" name="question3" value="markhor">Markhor<br>
+        <input type="radio" id="game" name="question3" value="lion">Lion<br>
+       
+        <button type="button" onclick="check()">Done!</button>
+    </form>
+ 
+    <div id="after_submit">
+        <p id="number_correct"></p>
+          <p id="message"></p> 
+             <img id="picture" height="300px" width="400px"> 
+             <p id="footer"></p>     
+    </div>
+</div>
+
+</body>
+</html>
